@@ -23,6 +23,7 @@
     <modules>
         <module>SpringIOC</module>
         <module>SpringProfile</module>
+        <module>SpringSPEL</module>
     </modules>
 
     <properties>
