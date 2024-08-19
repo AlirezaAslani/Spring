@@ -1,4 +1,4 @@
-package spring.services;
+package com.spring.services;
 
 
 public class GreetingService {

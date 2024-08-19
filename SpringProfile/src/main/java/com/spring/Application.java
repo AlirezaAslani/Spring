@@ -1,10 +1,10 @@
-package spring;
+package com.spring;
 
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import spring.config.ApplicationConfig;
-import spring.services.OutputService;
+import com.spring.config.ApplicationConfig;
+import com.spring.services.OutputService;
 
 public class Application {
 

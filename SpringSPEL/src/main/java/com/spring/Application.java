@@ -1,12 +1,17 @@
-package spring;
+package com.spring;
 
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
-import spring.config.ApplicationConfig;
-import spring.services.OutputService;
+import com.spring.config.ApplicationConfig;
+import com.spring.services.OutputService;
 
 public class Application {
+
+    /*
+    Note: regarding use spring profile you need to add the following setting into the VM Option
+    -Dspring.profiles.active=Dev
+    */
 
     public static void main(String[] args) throws Exception {
         ApplicationContext context = new AnnotationConfigApplicationContext(ApplicationConfig.class);

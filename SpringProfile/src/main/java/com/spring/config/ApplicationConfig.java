@@ -1,4 +1,4 @@
-package spring.config;
+package com.spring.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -6,9 +6,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 import org.springframework.context.annotation.PropertySource;
-import spring.services.GreetingService;
-import spring.services.OutputService;
-import spring.services.TimeService;
+import com.spring.services.GreetingService;
+import com.spring.services.OutputService;
+import com.spring.services.TimeService;
 
 @Configuration
 @PropertySource("classpath:application.properties")
