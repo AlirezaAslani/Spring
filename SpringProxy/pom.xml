@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
         <artifactId>Spring</artifactId>
-        <groupId>org.com.com.spring.example</groupId>
+        <groupId>com.spring.example</groupId>
         <version>1.0-SNAPSHOT</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
@@ -15,7 +15,7 @@
         <maven.compiler.source>17</maven.compiler.source>
         <maven.compiler.target>17</maven.compiler.target>
         <java.version>11</java.version>
-        <com.com.spring.version>6.1.12</com.com.spring.version>
+        <com.spring.version>6.1.12</com.spring.version>
     </properties>
 
     <build>
@@ -36,18 +36,18 @@
     <dependencies>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>com.spring-core</artifactId>
-            <version>${com.com.spring.version}</version>
+            <artifactId>spring-core</artifactId>
+            <version>6.1.13</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>com.spring-context</artifactId>
-            <version>${com.com.spring.version}</version>
+            <artifactId>spring-context</artifactId>
+            <version>${com.spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.springframework</groupId>
-            <artifactId>com.spring-aspects</artifactId>
-            <version>6.1.12</version>
+            <artifactId>spring-aspects</artifactId>
+            <version>${com.spring.version}</version>
         </dependency>
         <dependency>
             <groupId>org.slf4j</groupId>
@@ -56,7 +56,7 @@
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>com.spring-boot-autoconfigure</artifactId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
             <version>3.3.2</version>
         </dependency>
     </dependencies>
